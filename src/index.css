@@ -75,13 +75,18 @@ body {
   color: var(--gray);
   background-color: var(--white);
   overflow: auto;
+  text-align: right;
 }
 
 #display-contain {
-  float: right;
+  width: 100%;
+  /*display: flex;
+  justify-content: end;
+  flex-direction: row;*/
 }
 
 #display-box p {
+  text-align: end;
   font-size: 40px;
   padding: 10px;
 }
